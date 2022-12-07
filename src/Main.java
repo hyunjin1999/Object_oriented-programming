@@ -10,7 +10,6 @@
  */
 
 
-// 다형성(상속, 인터페이스)
 import java.util.Scanner;
 
 public class Main {
