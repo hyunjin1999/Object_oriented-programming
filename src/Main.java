@@ -28,6 +28,7 @@ public class Main {
             System.out.println("등록된 사용자가 아닙니다. 관리자에게 문의하세요");
             System.exit(0);
         }
+        manager.setName(userName);
         System.out.println("안녕하세요 "+manager.getName()+"님");
         int count = 0;
         while(true) {
